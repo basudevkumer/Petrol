@@ -1,0 +1,292 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  padding: 0;
+  margin: 0;
+}
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+img {
+  width: 100%;
+  max-width: 100%;
+}
+
+/* ====================================== commom  css end============================== */
+
+/* ====================================== header part start ============================== */
+#header {
+  padding: 17px 0;
+  background: #282828;
+  border-bottom: 1px solid #ffb800;
+}
+.h-row {
+  display: flex;
+  flex-direction: row;
+}
+.header-elm {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  /* padding: 0; */
+}
+.header-text {
+  display: flex;
+  text-align: center;
+  /* vertical-align: middle; */
+  gap: 25px;
+}
+.top-icon {
+  padding-right: 2px;
+}
+.header-text p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  /* vertical-align: middle; */
+  color: #ffffff;
+  border-left: 1px solid #5c6a92;
+  padding-left: 25px;
+  font-family: "Poppins", sans-serif;
+}
+.header-text a {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  /* vertical-align: middle; */
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+}
+.header-icon {
+  display: flex;
+  gap: 30px;
+}
+.header-icon i {
+  color: #ffffff;
+  font-size: 24px;
+}
+
+/* ====================================== header part end ============================== */
+/* ====================================== navbar part start ============================== */
+.navbar {
+  background: #f40404;
+  padding: 27px;
+}
+.navbar-nav {
+  display: flex;
+  gap: 25px;
+}
+.navbar .nav-item .nav-link {
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 100%;
+}
+.navbar .nav-item .nav-link:hover {
+  color: #ffffff;
+}
+.nav-btn-sbling {
+  padding: 14px 31px;
+  border: 1px solid #ffffff;
+  margin-left: 47px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  border-radius: 2px;
+}
+
+/* ====================================== navbar part end ============================== */
+
+/* ====================================== navbar part start ============================== */
+#bannar {
+  background: url(/images/bannar-img.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+  z-index: -1;
+}
+#bannar::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: rgba(40, 40, 40, 0.6);
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+.bannar-heading {
+  width: 765px;
+  font-size: 54px;
+  font-weight: 700;
+  line-height: 124%;
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
+  padding-top: 257px;
+  z-index: 1;
+}
+.bannar-btn {
+  /* padding: 13px 40px;
+  border: 1px solid #f40404;
+  width: fit-content;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 100%;
+  font-family: "Poppins", sans-serif;
+  background-color: #f40404;*/
+  margin-top: 31px;
+  margin-bottom: 257px;
+  /* z-index: 1; */
+}
+/* .bannar-btn:hover {
+  background: transparent;
+  border-color: #ffffff;
+} */
+/* ====================================== navbar part end ============================== */
+/* ====================================== suppliy part end ============================== */
+#suppliy {
+  padding-top: 78px;
+  padding-bottom: 100px;
+}
+.suppliy-heading {
+  font-family: "Poppins", sans-serif;
+  line-height: 72px;
+  font-size: 48px;
+  font-weight: 700;
+  width: 289px;
+}
+.pragraph2 {
+  display: flex;
+  align-items: center;
+}
+.suppliy-pragraph {
+  font-family: "Poppins", sans-serif;
+  line-height: 25px;
+  font-size: 16px;
+  font-weight: 500;
+  width: 651px;
+}
+/* ====================================== suppliy part end ============================== */
+/* ====================================== carrodcel part end ============================== */
+#carosel {
+  margin: 100px 0 28px;
+}
+.swiper {
+  width: 100%;
+  height: 300px;
+}
+/* ====================================== carrodcel part end ============================== */
+/* ====================================== services part end ============================== */
+
+.services-text p {
+  width: 355px;
+  /* text-align: start; */
+}
+.services-text h2 {
+  /* text-align: start; */
+  font-weight: 700;
+  font-size: 54px;
+  font-family: "Poppins", sans-serif;
+  line-height: 100%;
+  color: #282828;
+  
+  margin-bottom: 10px;
+}
+.services-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+   align-items: center;
+}
+.common-heading {
+  font-weight: 700;
+  font-size: 25px;
+  font-family: "Poppins", sans-serif;
+  line-height: 100%;
+  color: #ffffff;
+  padding-bottom: 13px;
+  z-index: 1;
+}
+
+.commmon-pragraph {
+  font-size: 16;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  color: #6c6c6c;
+}
+.common-btn {
+  padding: 13px 40px;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  background: #f40404;
+  color: #ffffff;
+  border: 2px solid #f40404;
+  border-radius: 2px;
+  transition: all 0.3s ease;
+  z-index: 1;
+  display: inline-block;
+}
+
+.common-btn:hover {
+  background: transparent !important;
+  border-color: #ffffff;
+  color: #ffffff;
+  z-index: 1;
+}
+
+/* .common-padding {
+  padding:147px 116px 139px;
+  padding-top: 147px;
+  padding-left: 110px;
+  padding-bottom: 139px;
+} */
+.prant .img {
+  width: 100%;
+}
+.services-one {
+  position: relative;
+  overflow: hidden;
+}
+.child {
+  position: absolute;
+  top: 0;
+  left: -100%;
+  background: rgba(40, 40, 40, 0.609);
+  width: 100%;
+  height: 100%;
+  padding-top: 147px;
+  padding-left: 116px;
+  transition: 0.4s all linear;
+  opacity: 0;
+
+}
+.services-one:hover .child {
+   left: 0;
+   opacity: 1;
+}
+.row {
+    --bs-gutter-x: 0px !important;
+   
+}
+/* ====================================== services part end ============================== */
