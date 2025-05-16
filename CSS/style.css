@@ -116,7 +116,7 @@ img {
 
 /* ====================================== navbar part start ============================== */
 #bannar {
-  background: url(/images/bannar-img.png);
+  background: url(./learn-img.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -306,7 +306,7 @@ img {
   padding: 164px 75px;
 }
 .l-image {
-  background: url(images/learn-img.png);
+  background: url(./learn-img.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
