@@ -306,7 +306,7 @@ img {
   padding: 164px 75px;
 }
 .l-image {
-  background: url(/images/learn-img.png);
+  background: url(images/learn-img.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
