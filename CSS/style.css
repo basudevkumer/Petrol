@@ -156,12 +156,16 @@ img {
   background-color: #f40404;*/
   margin-top: 31px;
   margin-bottom: 257px;
+
   /* z-index: 1; */
 }
-/* .bannar-btn:hover {
-  background: transparent;
-  border-color: #ffffff;
-} */
+.nav-btn-sbling {
+  border-color: #ffffff !important;
+  border-radius: 2px;
+}
+.bannar-btn:hover {
+  border-color: #ffffff !important;
+}
 /* ====================================== navbar part end ============================== */
 /* ====================================== suppliy part end ============================== */
 #suppliy {
@@ -201,6 +205,7 @@ img {
 .services-text p {
   width: 355px;
   /* text-align: start; */
+  padding-left: 10px;
 }
 .services-text h2 {
   /* text-align: start; */
@@ -209,22 +214,24 @@ img {
   font-family: "Poppins", sans-serif;
   line-height: 100%;
   color: #282828;
-  
+
   margin-bottom: 10px;
 }
-.services-text{
+.services-text {
   display: flex;
   flex-direction: column;
-  justify-content: end;
-   align-items: center;
+  /* justify-content:center !important; */
+  align-items: end;
+  padding-right: 61px;
+  padding-top: 106px;
 }
 .common-heading {
   font-weight: 700;
-  font-size: 25px;
+  font-size: 30px;
   font-family: "Poppins", sans-serif;
   line-height: 100%;
   color: #ffffff;
-  padding-bottom: 13px;
+  padding-bottom: 20px;
   z-index: 1;
 }
 
@@ -279,14 +286,225 @@ img {
   padding-left: 116px;
   transition: 0.4s all linear;
   opacity: 0;
-
 }
 .services-one:hover .child {
-   left: 0;
-   opacity: 1;
+  left: 0;
+  opacity: 1;
 }
 .row {
-    --bs-gutter-x: 0px !important;
-   
+  --bs-gutter-x: 0px !important;
 }
 /* ====================================== services part end ============================== */
+/* ====================================== learn part end ============================== */
+#learn {
+  padding: 136px 0px;
+  background-color: #f0f0f0;
+}
+.text {
+  background: #f40404;
+  height: 100%;
+  padding: 164px 75px;
+}
+.l-image {
+  background: url(/images/learn-img.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+}
+.learn-img {
+  margin: 168px 282px;
+}
+/* ====================================== learn part end ============================== */
+/* ====================================== company part end ============================== */
+
+#company {
+  padding: 117px 0;
+}
+
+.company-logo {
+  padding-left: 7px;
+}
+
+/* ====================================== company part end ============================== */
+/* ====================================== card part start ============================== */
+#card {
+  padding: 110px 0 162px;
+  background: #f0f0f0;
+}
+.card-elm {
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+}
+.display {
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  transition: 0.4s all linear;
+}
+.card-elm:hover .display {
+  left: 0;
+}
+
+.card-heading {
+  font-size: 24px;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
+  line-height: 35px;
+  width: 249px;
+  padding-bottom: 52px;
+}
+
+.card-btn {
+  color: #ffffff;
+  padding: 10px 23px;
+  border: 1px solid #ffffff;
+  display: inline-block;
+  width: fit-content;
+  background-color: rgba(255, 255, 255, 0.502);
+  transition: 0.1s all linear;
+}
+.card-btn:hover {
+  background: #f40404;
+  border-color: #f40404;
+  color: #ffffff;
+}
+.card-text {
+  /* padding-top:75px ;
+  padding-left:46px ; */
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  height: 100%;
+  padding-left: 46px;
+  padding-bottom: 75px;
+}
+
+.card-img-others {
+  height: 100%;
+  width: auto;
+}
+.card-img-child-one {
+  height: 100%;
+  width: auto;
+}
+
+.card-elm {
+  margin: 0px 40px;
+}
+
+/* ====================================== card part end ============================== */
+/* ====================================== contact part start ============================== */
+#contact {
+  background: #f40404;
+  padding: 46px 0px;
+}
+.contact-elm {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+.contact-heading {
+  padding: 0;
+}
+.contact-btn {
+  border-color: #ffffff;
+}
+/* ====================================== contact part end ============================== */
+/* ====================================== footer part start ============================== */
+#footer {
+  padding: 149px 0 170px;
+  background: #1f1f1f;
+}
+.footer-img {
+  width: 100%;
+}
+.icon-footer {
+  display: flex;
+  gap: 18px;
+  padding-top: 13px;
+  margin: 0;
+  padding-left: 0;
+}
+.icon-footer li a i{
+  font-size: 28px;
+ 
+}
+
+.icon-footer li  a img{
+background-color: #ffffff !important;
+border-radius: 20px !important;
+width: 100%;
+}
+
+.footer-img img {
+  width: 43%;
+}
+.footer-elm,
+a,
+p {
+  color: #ffffff !important;
+}
+.footer-img {
+  margin-bottom: 15px;
+}
+.text-footer {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.list-two ul {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.list-one ul {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.list-two,
+.list-one {
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+}
+.list {
+  display: flex;
+  justify-content: space-around;
+}
+
+.list-one,
+.list-two {
+  display: flex;
+  flex-direction: column;
+  row-gap: 23px;
+}
+.footer-logo {
+  display: flex;
+  flex-direction: column;
+  row-gap: 25px;
+  margin-left: 48px;
+}
+#footer-pragraph p {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  color: #6c6c6c !important;
+  text-align: center;
+}
+#footer-pragraph {
+  padding: 43px 0;
+  background: #282828;
+}
+/* ====================================== footer part end ============================== */
+/* ====================================== footer part end ============================== */
+/* ====================================== footer part end ============================== */
