@@ -27,23 +27,14 @@
     font-family: 18px;
   }
   .header-icon {
-    gap: 35px;
+    gap: 41px;
     justify-content: center;
     padding-top: 20px;
   }
   /* ================================================
              header part css End
 ================================================= */
-  /* ================================================
-             Footer part css Start
-================================================= */
-  .icon-footer {
-    padding-top: 20px;
-    padding-bottom: 33px;
-  }
-  /* ================================================
-             Footer part css End
-================================================= */
+
   /* ================================================
              Navbar part css start
 ================================================= */
@@ -66,7 +57,7 @@
   .navbar-nav {
     display: flex;
     gap: 11px;
-    margin-right: 17px;
+    margin-right: 22px;
     align-items: center;
     margin-top: 30px;
   }
@@ -76,6 +67,10 @@
   }
   .navBtn {
     padding-top: 13.5px;
+  }
+  .fa-solid,
+  .fas {
+    font-size: 29px !important;
   }
   /* ================================================
              Navbar part css End
@@ -124,9 +119,25 @@
     width: auto;
     margin-top: 22px;
   }
+
+
+  /* ================================================
+             Suppliy part css End
+================================================= */
   .swiper-slide {
-    width: 115px !important ;
+    width: 130px !important ;
   }
+  /* ================================================
+             Carusel part css Start
+================================================= */
+
+  /* ================================================
+             Carusel part css End
+================================================= */
+  /* ================================================
+             Services part css Start
+================================================= */
+
   .services-text p {
     padding-left: 15px;
     width: auto;
@@ -144,18 +155,11 @@
     background: rgba(40, 40, 40, 0.609);
     width: 100%;
     height: 100%;
-    padding-top: 19px;
+    padding-top: 55px;
     padding-left: 28px;
     transition: 0.4s all linear;
     opacity: 1;
   }
-
-  /* ================================================
-             Suppliy part css End
-================================================= */
-  /* ================================================
-             Services part css Start
-================================================= */
   .services-one:hover .child {
     left: 0;
     opacity: 1;
@@ -167,6 +171,21 @@
   .services-two {
     margin: 25px 0;
   }
+  .common-btn:hover {
+  background: #f40404 !important;
+  border-color: #f40404;
+  color: #ffffff;
+  z-index: 1;
+}
+.services-one{
+  height: 100px;
+}
+.services-one {
+  height: 200px;
+}
+.services-one img{
+  height: 100%;
+}
   /* ================================================
   Services part css End
   ================================================= */
