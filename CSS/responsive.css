@@ -1,0 +1,287 @@
+/* =====================================================
+          Extra small devices design start
+===================================================== */
+@media (min-width: 320px) and (max-width: 576.99px) {
+  /* ================================================
+             header part css start
+================================================= */
+  .fa-solid,
+  .fas {
+    font-size: 17px !important;
+    padding-right: 3px;
+  }
+  .header-elm {
+    flex-direction: column;
+  }
+  .header-text {
+    flex-direction: column;
+  }
+  .top-icon {
+    padding-right: 0px !important;
+  }
+  .header-text p {
+    border-left: 0;
+    padding-left: 0;
+  }
+  .header-icon i {
+    font-family: 18px;
+  }
+  .header-icon {
+    gap: 35px;
+    justify-content: center;
+    padding-top: 20px;
+  }
+  /* ================================================
+             header part css End
+================================================= */
+  /* ================================================
+             Footer part css Start
+================================================= */
+  .icon-footer {
+    padding-top: 20px;
+    padding-bottom: 33px;
+  }
+  /* ================================================
+             Footer part css End
+================================================= */
+  /* ================================================
+             Navbar part css start
+================================================= */
+
+  .navbar-brand {
+    margin-right: 0rem;
+  }
+  .navbar-light .navbar-brand {
+    width: 57%;
+  }
+  .fa-solid,
+  .fas {
+    color: #ffffff;
+    font-size: 27px;
+  }
+  .navbar-light .navbar-toggler {
+    color: transparent;
+    border-color: transparent;
+  }
+  .navbar-nav {
+    display: flex;
+    gap: 11px;
+    margin-right: 17px;
+    align-items: center;
+    margin-top: 30px;
+  }
+  .common-btn {
+    padding: 8px 35px;
+    border-radius: 5px;
+  }
+  .navBtn {
+    padding-top: 13.5px;
+  }
+  /* ================================================
+             Navbar part css End
+================================================= */
+  /* ================================================
+             Bannar part css Start
+================================================= */
+
+  #bannar {
+    background: url(./learn-img.png);
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    z-index: -1;
+  }
+  .bannar-heading {
+    width: auto;
+    font-size: 31px;
+    padding-top: 143px;
+  }
+  .bannar-btn {
+    margin: 31px 0 66px;
+  }
+  /* ================================================
+             Bannar part css End
+================================================= */
+  /* ================================================
+             Suppliy part css start
+================================================= */
+  .suppliy-heading {
+    font-family: "Poppins", sans-serif;
+    line-height: 50px;
+    font-size: 36px;
+    font-weight: 700;
+    width: auto;
+  }
+  #carosel {
+    margin: 0;
+  }
+  .pragraph2 {
+    flex-direction: column;
+  }
+  .suppliy-pragraph {
+    width: auto;
+    margin-top: 22px;
+  }
+  .swiper-slide {
+    width: 115px !important ;
+  }
+  .services-text p {
+    padding-left: 15px;
+    width: auto;
+    padding-bottom: 60px;
+  }
+  .services-text h2 {
+    font-size: 38px;
+    margin-bottom: 16px;
+  }
+
+  .child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(40, 40, 40, 0.609);
+    width: 100%;
+    height: 100%;
+    padding-top: 19px;
+    padding-left: 28px;
+    transition: 0.4s all linear;
+    opacity: 1;
+  }
+
+  /* ================================================
+             Suppliy part css End
+================================================= */
+  /* ================================================
+             Services part css Start
+================================================= */
+  .services-one:hover .child {
+    left: 0;
+    opacity: 1;
+  }
+  .common-heading {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .services-two {
+    margin: 25px 0;
+  }
+  /* ================================================
+  Services part css End
+  ================================================= */
+  /* ================================================
+  Learn part css Start
+  ================================================= */
+  .text {
+    padding: 115px 65px;
+  }
+  .learn-img {
+    margin: 64px 21% 64px;
+    white-space: nowrap;
+  }
+
+  /* ================================================
+             Learn part css End
+================================================= */
+  /* ================================================
+             Company part css Start
+================================================= */
+
+  .company-logo {
+    padding-left: 7px;
+    padding-bottom: 23px;
+  }
+  .company-logo a img {
+    width: 90%;
+  }
+  #company {
+    padding: 50px 0;
+  }
+
+  /* ================================================
+             Company part css End
+================================================= */
+  /* ================================================
+             Card part css Start
+================================================= */
+  #card {
+    padding: 80px 0 75px;
+  }
+  .display {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    transition: 0.4s all linear;
+  }
+  .card-elm:hover .display {
+    left: 0;
+  }
+  .card-text {
+    height: 81%;
+    padding-left: 15px;
+    padding-bottom: 0;
+  }
+
+  .card-heading {
+    font-size: 18px;
+    line-height: 29px;
+    width: auto;
+    padding-bottom: 20px;
+  }
+  .card-elm {
+    margin: 0;
+    width: 100%;
+    height: 350px;
+    margin-bottom: 39px;
+  }
+  .card-elm:nth-child(3) {
+    padding: 25px 0 !important;
+  }
+  .card-heading {
+    padding-bottom: 30px;
+  }
+  /* ================================================
+             Card part css End
+================================================= */
+  /* ================================================
+             Map part css Start
+================================================= */
+  #map {
+    height: 130px !important;
+  }
+  #map img {
+    height: 100% !important;
+  }
+
+  /* ================================================
+             Map part css End
+================================================= */
+  /* ================================================
+             Footer part css Start
+================================================= */
+  .footer-logo {
+    margin-left: 0px;
+    margin-top: 50px;
+  }
+  .icon-footer {
+    padding-top: 30px;
+    padding-bottom: 58px;
+  }
+  #footer {
+    padding: 110px 0 10px;
+  }
+  #footer-pragraph p {
+    width: auto;
+    text-align: start;
+  }
+  /* ================================================
+             Footer part css End
+================================================= */
+}
+/* =====================================================
+          Extra small devices design End
+===================================================== */
