@@ -34,9 +34,10 @@
     font-size: 18px !important;
   }
   .header-icon {
-    gap: 40px;
+    gap: 37px;
     justify-content: center;
     padding-top: 20px;
+    margin-right: 29px;
   }
   /* ================================================
              header part css End
@@ -349,11 +350,12 @@
   .header-icon i {
     font-size: 18px !important;
   }
-  .header-icon {
-    gap: 40px;
-    justify-content: center;
-    padding-top: 20px;
-  }
+ .header-icon {
+	gap: 37px;
+	justify-content: center;
+	padding-top: 20px;
+	margin-right: 29px;
+}
   /* ================================================
              header part css End
 ================================================= */
