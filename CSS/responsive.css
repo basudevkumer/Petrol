@@ -194,6 +194,9 @@
   .services-one img {
     height: 100%;
   }
+  .services-text {
+    padding-top: 25px !important;
+  }
   /* ================================================
   Services part css End
   ================================================= */
@@ -518,6 +521,9 @@
   .services-one img {
     height: 100%;
   }
+  .services-text {
+    padding-top: 25px !important;
+  }
   /* ================================================
   Services part css End
   ================================================= */
@@ -623,9 +629,9 @@
   /* ================================================
              Contact part css Start
 ================================================= */
-.contact-btn:hover{
-  border-color: #ffffff;
-}
+  .contact-btn:hover {
+    border-color: #ffffff;
+  }
   /* ================================================
              Contact part css End
 ================================================= */
